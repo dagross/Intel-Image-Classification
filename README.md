@@ -22,6 +22,10 @@ The notebook for this project is available [here](./project-5.ipynb).
   - A Keras CNN with with two Conv2D layers (16 and 64 filters, respectively) and AveragePooling2D layers instead of the usual MaxPooling2D layers, with a single-hidden-layer FNN of 32 neurons, achieving validation accuracy of **0.76** with some overfitting - this model would probably benefit from regularization.
   - A Keras FNN using the VGG19 pretrained dataset for transfer learning, then moving that data through 2 hidden layers of 128 and 64 neurons respectively, achieving our best accuracy of **0.86** with minimal overfitting.
   - The most prevalent misclassifications across all of our models were: street vs. buildings, mountain vs. glacier, and glacier vs. sea.
+ 
+ **NEXT STEPS**
+ - We could try breaking the 6 image classes into subclasses to better analyze misclassifications via the subclass prediction probabilities.
+ - We would like to investigate running some of our more complicated models on Spark in the cloud, or trying other deep-learning techniques only available via Spark.
 
 **CONTRIBUTORS**
 - Gabe Mangiante
