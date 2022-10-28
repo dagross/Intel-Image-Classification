@@ -18,6 +18,12 @@ The notebook for this project is available [here](./project-5.ipynb).
 
 **RESULTS**
 - Our 3 best models were:
-  - A typical Keras CNN with one Conv2D layer (8 filters) and one FNN layer of 64 neurons with L2 regularization, achieving validation accuracy of **0.74** with minimal overfitting
-  - A Keras CNN with with two Conv2D layers (16 and 64 filters, respectively) and AveragePooling2D layers instead of the usual MaxPooling2D layers, with a single-hidden-layer FNN of 32 neurons, achieving validation accuracy of **0.76** with some overfitting - would probably benefit from regularization
+  - A typical Keras CNN with one Conv2D layer (8 filters) and one FNN layer of 64 neurons with L2 regularization, achieving validation accuracy of **0.74** with minimal overfitting.
+  - A Keras CNN with with two Conv2D layers (16 and 64 filters, respectively) and AveragePooling2D layers instead of the usual MaxPooling2D layers, with a single-hidden-layer FNN of 32 neurons, achieving validation accuracy of **0.76** with some overfitting - this model would probably benefit from regularization.
   - A Keras FNN using the VGG19 pretrained dataset for transfer learning, then moving that data through 2 hidden layers of 128 and 64 neurons respectively, achieving our best accuracy of **0.86** with minimal overfitting.
+  - The most prevalent misclassifications across all of our models were: street vs. buildings, mountain vs. glacier, and glacier vs. sea.
+
+**CONTRIBUTORS**
+- Gabe Mangiante
+- Injung Ahn
+- Gleb Radchenko
